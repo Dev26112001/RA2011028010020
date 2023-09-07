@@ -3,6 +3,7 @@ import requests
 import concurrent.futures
 import time
 
+//Putting flask functionality into the Management System
 app = Flask(__name__)
 
 def fetch_numbers_from_url(url):
